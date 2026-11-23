@@ -1,0 +1,28 @@
+# Build products
+abc
+arch_flags
+build/
+cmake-build-*/
+compile_commands.json
+*.a
+*.d
+*.dll
+*.exe
+*.lib
+*.o
+*.so
+
+# Runtime output
+abc.history
+*.log
+*.wit
+*.witness
+savewitness/
+witnesses/
+
+# Editor and temporary files
+.idea/
+.vscode/
+*.bak
+*.swp
+*~
